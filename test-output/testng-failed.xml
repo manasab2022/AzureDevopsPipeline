@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Orange HRM Test Suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="3" parallel="tests" name="Open HRM Home Page Test(failed)" verbose="3">
+    <classes>
+      <class name="com.qa.azuredevops.tests.OpenHRMHomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="HRMLogoTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.azuredevops.tests.OpenHRMHomePageTest -->
+    </classes>
+  </test> <!-- Open HRM Home Page Test(failed) -->
+</suite> <!-- Failed suite [Orange HRM Test Suite] -->
